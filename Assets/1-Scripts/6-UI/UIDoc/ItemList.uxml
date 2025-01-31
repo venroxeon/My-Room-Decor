@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/1-Scripts/5-UI/UIDoc/StyleSheets/ItemListStyle.uss?fileID=7433441132597879392&amp;guid=b821b7dc445854c418292e955206836c&amp;type=3#ItemListStyle" />
+    <ui:ScrollView name="ItemList" mode="Horizontal" horizontal-scroller-visibility="Hidden" vertical-scroller-visibility="Hidden" class="item_list">
+        <ui:Button display-tooltip-when-elided="true" name="ItemBtn1" class="item_btn">
+            <ui:VisualElement name="ItemBtnImg" class="item_btn_img" style="background-image: url(&apos;project://database/Assets/5-Images/ItemBtnImages/Table2.png?fileID=2800000&amp;guid=4d8c9f186be8d8e438c7d3e74e3d7552&amp;type=3#Table2&apos;);" />
+        </ui:Button>
+        <ui:Button display-tooltip-when-elided="true" name="ItemBtn2" class="item_btn">
+            <ui:VisualElement name="ItemBtnImg" class="item_btn_img" style="background-image: url(&apos;project://database/Assets/5-Images/ItemBtnImages/Table.png?fileID=2800000&amp;guid=21ef478d5014ff747908fd5941d3ccdf&amp;type=3#Table&apos;);" />
+        </ui:Button>
+    </ui:ScrollView>
+</ui:UXML>

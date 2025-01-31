@@ -1,0 +1,23 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/1-Scripts/5-UI/UIDoc/StyleSheets/ItemTypeListStyle.uss?fileID=7433441132597879392&amp;guid=21bb14e2c3ce7284eab416f95481df32&amp;type=3#ItemTypeListStyle" />
+    <ui:ScrollView name="ItemTypeList" horizontal-scroller-visibility="Hidden" vertical-scroller-visibility="Hidden" mode="Horizontal" class="item_type_list">
+        <ui:Button display-tooltip-when-elided="true" name="ItemTypeBtn" class="item_type_btn item_type_btn_active">
+            <ui:VisualElement name="ItemTypeBtnImage" class="item_type_btn_image" />
+        </ui:Button>
+        <ui:Button display-tooltip-when-elided="true" name="ItemTypeBtn" class="item_type_btn">
+            <ui:VisualElement name="ItemTypeBtnImage" class="item_type_btn_image" style="background-image: url(&apos;project://database/Assets/5-Images/Items/sofa.png?fileID=2800000&amp;guid=1f60f23cda3f2b542a42d7437c1613dc&amp;type=3#sofa&apos;);" />
+        </ui:Button>
+        <ui:Button display-tooltip-when-elided="true" name="ItemTypeBtn" class="item_type_btn">
+            <ui:VisualElement name="ItemTypeBtnImage" class="item_type_btn_image" style="background-image: url(&apos;project://database/Assets/5-Images/Items/chair.png?fileID=2800000&amp;guid=47e070a04b69ce542a13af5cc4dc9dee&amp;type=3#chair&apos;);" />
+        </ui:Button>
+        <ui:Button display-tooltip-when-elided="true" name="ItemTypeBtn" class="item_type_btn">
+            <ui:VisualElement name="ItemTypeBtnImage" class="item_type_btn_image" style="background-image: url(&apos;project://database/Assets/5-Images/Items/cupboard.png?fileID=2800000&amp;guid=97685b23c96e4ac44a9bb89c87f47475&amp;type=3#cupboard&apos;);" />
+        </ui:Button>
+        <ui:Button display-tooltip-when-elided="true" name="ItemTypeBtn" class="item_type_btn">
+            <ui:VisualElement name="ItemTypeBtnImage" class="item_type_btn_image" style="background-image: url(&apos;project://database/Assets/5-Images/Items/bookshelf.png?fileID=2800000&amp;guid=04f5fee8080d28043bb54d8e67ba7689&amp;type=3#bookshelf&apos;);" />
+        </ui:Button>
+        <ui:Button display-tooltip-when-elided="true" name="ItemTypeBtn" class="item_type_btn">
+            <ui:VisualElement name="ItemTypeBtnImage" class="item_type_btn_image" style="background-image: url(&apos;project://database/Assets/5-Images/Items/Plant.png?fileID=2800000&amp;guid=fdf88c82d82cb3b4598e11635fcc8f73&amp;type=3#Plant&apos;);" />
+        </ui:Button>
+    </ui:ScrollView>
+</ui:UXML>

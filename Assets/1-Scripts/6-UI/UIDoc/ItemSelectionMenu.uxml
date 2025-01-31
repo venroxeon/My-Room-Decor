@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="ItemList" src="project://database/Assets/1-Scripts/6-UI/UIDoc/ItemList.uxml?fileID=9197481963319205126&amp;guid=9643a524c552cec4ab7dfc9eb3343428&amp;type=3#ItemList" />
+    <ui:Template name="ItemTypeList" src="project://database/Assets/1-Scripts/6-UI/UIDoc/ItemTypeList.uxml?fileID=9197481963319205126&amp;guid=9ebfed38a4d1c49439f5482c619842f6&amp;type=3#ItemTypeList" />
+    <Style src="project://database/Assets/1-Scripts/6-UI/UIDoc/StyleSheets/SelectionMenuStyle.uss?fileID=7433441132597879392&amp;guid=3d5cf852c2f745a4bafab8c302566986&amp;type=3#SelectionMenuStyle" />
+    <ui:Button text="&#10;" display-tooltip-when-elided="true" name="ResetBtn" style="width: 80px; height: 80px; align-self: flex-end; top: 44px; right: 40px; background-image: url(&apos;project://database/Assets/5-Images/Reset.png?fileID=2800000&amp;guid=0c36a65d615ff9e40b2917d2c9832b92&amp;type=3#Reset&apos;); border-left-color: rgba(149, 149, 149, 0); border-right-color: rgba(149, 149, 149, 0); border-top-color: rgba(149, 149, 149, 0); border-bottom-color: rgba(149, 149, 149, 0); -unity-background-image-tint-color: rgb(255, 255, 255); background-color: rgba(188, 188, 188, 0); justify-content: flex-start;" />
+    <ui:VisualElement name="BackGround" class="background">
+        <ui:VisualElement name="Container" class="container">
+            <ui:Instance template="ItemList" name="ItemList" class="item_list" />
+            <ui:Instance template="ItemTypeList" name="ItemTypeList" class="item_type_list" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

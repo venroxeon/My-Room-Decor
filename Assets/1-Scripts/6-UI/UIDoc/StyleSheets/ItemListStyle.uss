@@ -1,0 +1,64 @@
+.item_btn {
+    height: 140px;
+    width: 140px;
+    align-self: center;
+    border-left-color: rgb(255, 158, 122);
+    border-right-color: rgb(255, 158, 122);
+    border-top-color: rgb(255, 158, 122);
+    border-bottom-color: rgb(255, 158, 122);
+    border-left-width: 9px;
+    border-right-width: 9px;
+    border-top-width: 9px;
+    border-bottom-width: 9px;
+    border-top-left-radius: 28px;
+    border-bottom-left-radius: 28px;
+    border-top-right-radius: 28px;
+    border-bottom-right-radius: 28px;
+    background-color: rgb(255, 255, 255);
+    background-image: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-shrink: 0;
+    -unity-background-image-tint-color: rgba(255, 255, 255, 0);
+}
+
+.item_btn:active {
+    height: 150px;
+    width: 150px;
+    align-self: flex-end;
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-top-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+    border-left-width: 9px;
+    border-right-width: 9px;
+    border-top-width: 9px;
+    border-bottom-width: 9px;
+    border-top-left-radius: 28px;
+    border-bottom-left-radius: 28px;
+    border-top-right-radius: 28px;
+    border-bottom-right-radius: 28px;
+    background-color: rgb(168, 255, 151);
+    background-image: none;
+    justify-content: flex-start;
+    align-items: stretch;
+    flex-direction: column;
+    flex-shrink: 0;
+    bottom: 15px;
+}
+
+.item_btn_img {
+    background-image: url('project://database/Assets/5-Images/ItemBtnImages/Chair.png?fileID=2800000&guid=a95d4098585b9b54e8310f36d1b134b7&type=3#Chair');
+    flex-grow: 0;
+    align-self: center;
+    flex-shrink: 0;
+    width: 112px;
+    height: 72px;
+}
+
+.item_list {
+    height: 185px;
+    width: 296px;
+    background-image: none;
+}

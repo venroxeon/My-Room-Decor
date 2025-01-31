@@ -1,0 +1,5 @@
+.loading_bar {
+    height: 211px;
+    width: auto;
+    max-width: 5px;
+}

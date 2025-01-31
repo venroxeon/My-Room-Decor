@@ -1,0 +1,54 @@
+{
+    "name": "TouchInput",
+    "maps": [
+        {
+            "name": "TouchInputs",
+            "id": "93d4a65e-4d9a-4135-be57-5daa6e1f547c",
+            "actions": [
+                {
+                    "name": "FirstTouchPress",
+                    "type": "Button",
+                    "id": "b8c46989-9568-4e3b-8569-cc1625e1dbc7",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "FirstTouchPos",
+                    "type": "Value",
+                    "id": "0a791eb5-2fea-4238-a992-d31ac39a8101",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "a1f5c97e-0770-4bbf-8bd9-bebdc78d6b3e",
+                    "path": "<Touchscreen>/primaryTouch/press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "FirstTouchPress",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "bc9790e3-9742-41bc-b71a-c8857f68fa91",
+                    "path": "<Touchscreen>/primaryTouch/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "FirstTouchPos",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

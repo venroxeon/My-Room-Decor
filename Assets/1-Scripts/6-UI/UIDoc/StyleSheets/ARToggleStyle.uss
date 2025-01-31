@@ -1,0 +1,15 @@
+.ARToggle {
+    background-color: rgb(0, 0, 0);
+    flex-shrink: 0;
+    align-self: flex-start;
+    min-height: 90px;
+    min-width: 90px;
+    color: rgb(255, 255, 255);
+    font-size: 46px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    top: 56px;
+    left: 47px;
+}
